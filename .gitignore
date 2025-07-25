@@ -1,7 +1,27 @@
-server/node_modules/
-server/.env
-server/package-lock.json
-client/node_modules/
-client/package-lock.json
-node_modules/
+# Node modules (client & server)
+**/node_modules/
+
+# Environment variables
+**/.env
+**/.env.*
+
+# Logs
+logs
+*.log
+
+# Dependency lock files (optional)
 package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS system files
+.DS_Store
+Thumbs.db
